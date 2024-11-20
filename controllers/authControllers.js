@@ -1,12 +1,12 @@
-
+const adminModel =require('../models/adminModel');
 
 class authControllers{
     admin_login = async(req,res) => {
-        console.log(res.body);
+        const { email,password } = res.body;
         try{
 
         } catch(error){
-            
+
         }
         
     }
