@@ -1,10 +1,10 @@
 const express = require('express');
+require('dotenv').config()
 const app = express();
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const { dbConnect } = require('./utils/db');
-require('dotenv').config()
 
 
 app.use(cors({
