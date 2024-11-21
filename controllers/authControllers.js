@@ -1,6 +1,6 @@
 const adminModel =require('../models/adminModel');
 const bcrpty = require('bcrypt')
-const { createToken } = require('../utiles/tokenCreate')
+const { createToken } = require('../utils/tokenCreate')
 
 class authControllers{
     admin_login = async(req,res) => {
